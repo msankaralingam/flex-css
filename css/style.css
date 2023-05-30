@@ -1,0 +1,145 @@
+*{
+  margin:o;
+  padding:o;
+  box-sizing:border-box;
+}
+
+.flex-container{
+              margin:0 auto;
+               width:90%;
+               border:2px solid black;
+}
+
+.box{
+       padding:3px;
+       border:3px solid black;
+       margin:5px;
+       font-size:10px;
+       font-weight:bold;'
+       width:10%;   
+}
+
+.row{
+      display:flex;'
+      flex-direction:row;
+}
+
+
+
+.direction-row{
+            display:flex;
+            flex-direction:row-reverse;
+}
+
+.column{
+            display:flex;
+            flex-direction:column;
+}
+.column-reverse{
+             display:flex;
+            flex-direction:column-reverse;
+}
+.wrap{
+       flex-wrap:wrap;
+          border:5px solid green;
+}
+
+.no-wrap{
+          flex-wrap:wrap;
+          border:5px solid pink;
+}
+.wrap-reverse{
+              flex-wrap:wrap;
+          border:5px solid blue;
+}
+              
+         
+.justifycenter{
+             display:flex;
+              justify-content:center;
+}
+.justify-flex-start{
+             display:flex;
+              justify-content:flex-start;
+}
+.justify-flex-end{
+             display:flex;
+              justify-content:flex-end;
+}
+.justify-space-around{
+             display:flex;
+              justify-content:space-around;
+}
+
+.justify-space-between{
+             display:flex;
+              justify-content:space-between;
+}
+
+.align-center{
+           display:flex;
+           align-items:center;
+            height:200px;
+}
+
+.flex-start{
+           display:flex;
+           align-items:flex-start;
+            height:200px;
+}
+
+.flex-end{
+           display:flex;
+           align-items:flex-end;
+            height:200px;
+}
+.stretch{
+          display:flex;
+           align-items:stretch;
+            height:200px;
+}
+
+.baseline{
+          display:flex;
+           align-items:baseline;
+            height:200px;
+}
+.space-around{
+            display:flex;
+             flex-wrap:wrap;
+              align-content:space-around;
+            overflow:scroll;
+            height:600px;
+}
+
+.space-between{
+            display:flex;
+             flex-wrap:wrap;
+              align-content:space-between;
+            overflow:scroll;
+            height:600px;
+}
+
+
+.stretch{
+            display:flex;
+             flex-wrap:wrap;
+              align-content:stretch;
+            overflow:scroll;
+            height:600px;
+}
+         
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
